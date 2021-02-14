@@ -1,0 +1,238 @@
+.beside-login-form {
+    background-color: #fff;
+    background-image: url("../images/lms-login-page-img.png");
+    background-size: cover;
+}
+.beside-login-form .inner-div {
+    height: 600px;
+    width: 600px;
+}
+.heading-1 {
+    font-size: 33px;
+}
+fieldset{
+    border: 0.2px solid #989898;
+}
+input[type=text], input[type=password] {
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 60%;
+    outline: none;
+  }
+.bg-green-1 {
+    background-color: #08BC2B;
+}
+.my-white-bg {
+    background-color: #fff;
+}
+.color-green-1 {
+    color: #0A572D;
+}
+.color-green-2 {
+    color: #00A030;
+}
+.color-green-3 {
+    color: #4D9F72;
+}
+.a-bit-bolded {
+    font-weight: 500;
+}
+.form-check-input {
+    border: 2px solid #fff;
+    /* outline: 1px solid #00A030; */
+}
+.grayed-text {
+    color:#989898
+}
+.ligth-gray {
+    color: #DFE3E8;
+}
+.small-text-1 {
+    font-size: 10px;
+}
+.small-text-2 {
+    font-size: 12px;
+}
+.small-text-3 {
+    font-size: 8px;
+}
+.small-text-4 {
+    font-size: 6px;
+}
+
+.my-icon-size {
+    width: 16px;
+}
+.my-logo-size-mobile {
+    width: 60px;
+}
+fieldset {
+    border:1px solid gray;
+  }
+  legend {
+    width: auto;
+  }
+/********* END OF LOGIN PAGE STYLES ***********/
+
+
+/********* START OF ADMIN-DASHBOARD STYLES *********/
+
+/*###########Testing###########*/
+/* display .overlay when it has the .active class */
+
+
+/*######## end of testing #######*/
+body.sidebar-body {
+    background-color: #F5F7F7;
+}
+.wrapper-customer-dashboard {
+    max-width: 100%;
+}
+img.star {
+    width: 10px;
+}
+.active-sidebar-link{
+    background-color: #F5F7F7;
+    border-left: 3px solid greenyellow;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.nav-link-img:hover {
+    color: green;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color:#D0D7EA;
+    height: 1px;
+  }
+  .search-field input[type=text] {
+      background-color: #EAF0F0;
+      border: none;
+      border: 1px solid #EAF0F0;
+      background-image: url("../images/lms-search.svg");
+      background-repeat: no-repeat;
+      background-position: 10px 15px;
+      padding: 10px 20px 10px 40px;
+      width: 100%;
+      border-radius: 26px;
+  }
+  .list-group {
+      border: none;
+  }
+  .course-catalog-side-border-green {
+      border-left: 4px solid #08BC2B;
+  }
+  .course-catalog-side-border-orange {
+    border-left: 4px solid #FFB03C;
+}
+.course-catalog {
+    width: 100px;
+}
+.course-catalog-0 {
+    width: 65px;
+}
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
+.card {
+    border: none;
+}
+#my-scroll::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 10px;
+}
+#my-scroll::-webkit-scrollbar-track {
+    background: #EAF0F0;
+}
+#my-scroll::-webkit-scrollbar-thumb {
+    background-color: #0A572D;
+    border-radius: 10px;
+}
+.fa-angle-left,.fa-angle-right {
+    cursor: pointer;
+}
+/* **********START OF CALENDER STYLES*/
+.card-for-calender {
+    width: 18rem;
+    height: 16rem;
+}
+.weekdays {
+    padding: 0 0.1rem;
+    height: 1rem;
+}
+.weekdays div {
+    letter-spacing: 0.1rem;
+    width: calc(17.6rem/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.days {
+    padding: 0.2rem;
+}
+.days div {
+    margin: 0.1rem;
+    width: calc(16rem/7);
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+}
+.days div:hover:not(.today) {
+    background-color: #EEFADB;
+    border-radius: 200px;
+    color: #08BC2B;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.today {
+    background-color: #EEFADB;
+    border-radius: 200px;
+    color: #08BC2B;
+    font-weight: 500;
+}
+/* ********END OF CALENDER STYLES */
+
+.vl{
+    border-left: 1px dotted #DFE3E8;
+    height: 40px;
+    margin-left: 27px;
+}
+#sidebar-i{
+    min-width: 100px;
+    max-width: 100px;
+}
+.overlay{
+    display: none;
+    position: fixed;
+    /* full screen */
+    width: 100vw;
+    height: 100vh;
+    /* transparent black */
+    background: rgba(0, 0, 0, 0.7);
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 998;
+    opacity: 0;
+    /* animate the transition */
+    transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+@media(max-width: 770px) {
+    
+     #sidebar-ii{
+        
+        max-width: 80%; 
+        position: fixed;
+        z-index: 9999;
+    } 
+}

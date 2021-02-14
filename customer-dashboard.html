@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    >
+    <!-- <link rel="stylesheet" href="css/testing.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- google-fonts -->
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/87c3dcfa44.js" crossorigin="anonymous"></script>
+  
+</head>
+<body class="sidebar-body">
+    <div class="pl-0 pl-lg-2 row wrapper-customer-dashboard" id="wrapper-id">
+        <div class="col-1">
+            <div class="d-none d-lg-flex flex-row pt-lg-1" style="height: 100vh;">
+                <div class="first-flex-item d-inline">
+                    <img src="./images/brand-mark.png" alt="LMS Brand">
+                </div>
+                <div class="container-for-second-and-third-items align-self-end ml-n5">
+                    <div class="second-flex-item mb-0">
+                        <img src="./images/lms-switch.svg" alt="Switch Icon">
+                    </div> 
+                    <div class="third-flex-item my-3">
+                        <img src="./images/profile-pic.png" alt="User Photo">
+                    </div>
+                    <div class="fourth-flex-item">
+                        <img src="./images/lms-power-button.svg" alt="Power Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-2" id="sidebar-ii">
+            <div 
+                class="d-none d-lg-flex flex-column bg-white ml-0 pt-lg-2 sidebar-inner 
+                animate__animated animate__faster" 
+                style="height: 100vh;">
+                <div class="logo-container mb-0 pl-3">
+                    <img src="./images/lms-brand-logo.png" alt="LMS-Envivo">
+                    <img  class="float-right my-icon-size mt-3 mr-3 d-lg-none"
+                        src="./images/lms-cancel.svg" alt="Cancel" id="hideSidebar">
+                </div><hr>
+                <div class="user-profile-section pl-3 mb-n3">
+                    <img src="./images/profile-pic.png" alt="User Profile">
+                    <p class="display-name color-green-1 a-bit-bolded mt-2">James Daniels</p>
+                    <p class="show-text mt-0">
+                        <img src="./images/star.svg" alt="star" class="star mr-1"><span class="grayed-text small-text-1">38XP</span>
+                        <a href="#" class="float-right mr-3 color-green-1 a-bit-bolded">View Profile <img src="./images/angle-bracket-left.svg" alt="View Profile"></a>
+                    </p>
+                </div><hr>
+                <div class="list">
+                    <ul class="nav nav-pills flex-column pr-lg-3">
+                        <li class="nav-item active-sidebar-link"><a class="nav-link rounded-0" href="#"><i class="fas fa-landmark mr-3" style="color: #08BC2B;"></i><span class="grayed-text small-text-1">Dashboard</span></a></li>
+                        <li class="nav-item"><a class="nav-link rounded-0" href="#"><img src="./images/lms-course-catalog.svg" alt="Dashboard" class="mr-3 small-text-1 nav-link-img"><span class="grayed-text small-text-1">Course Catalog</span></a></li>
+                        <li class="nav-item"><a class="nav-link rounded-0" href="#"><img src="./images/lms-my-courses.svg" alt="Dashboard" class="mr-3 small-text-1 nav-link-img"><span class="grayed-text small-text-1">My Courses</span></a></li>                    
+                        <li class="nav-item"><a class="nav-link" href="#"><img src="./images/lms-settings.svg" alt="Dashboard" class="mr-3 small-text-1 nav-link-img"><span class="grayed-text small-text-1">Settings</span></a></li>                                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-9 pr-0">
+            <div class="row pl-3 d-lg-none pr-0 my-white-bg py-2 justify-content-between sticky-top" id="my-sticky-top">
+                <div class="col-6">
+                    <span class="color-green-1"><i class="fas fa-bars mr-3 fa-lg mt-1" id="showSidebar"></i></span>
+                    <img class="d-inline my-logo-size-mobile" src="./images/lms-brand-logo.png" alt="Logo">
+                </div>
+                <div class="col-4 pt-0">
+                    <!-- <i class="fas fa-search fa-sm"></i> -->
+                    <img class=" mr-4 mr-md-5" src="./images/lms-search.svg" alt="Search Icon">
+                    <img src="./images/lms-notifications.svg" alt="Notifications">
+                </div>
+            </div>    
+            <div class="row d-none d-lg-flex justify-content-between pt-2">
+                <div class="col-4 search-field">
+                    <input type="text" id="search-field" placeholder="Search...">
+                </div>
+                <div class="col-6 notifications-messages-grades">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a class="nav-link rounded-0" href="#"><img src="./images/lms-notifications.svg" alt="Dashboard" class="mr-1 small-text-1"><span class="grayed-text small-text-1">Notifications</span></a></li>
+                        <li class="nav-item mx-5"><a class="nav-link rounded-0" href="#"><img src="./images/lms-chat.svg" alt="Dashboard" class="mr-1 small-text-1 nav-link-img"><span class="grayed-text small-text-1">Messages</span></a></li>
+                        <li class="nav-item"><a class="nav-link rounded-0" href="#"><img src="./images/lms-grades.svg" alt="Dashboard" class="mr-1 small-text-1 nav-link-img"><span class="grayed-text small-text-1">Grades</span></a></li>                                                          
+                    </ul>
+                </div>
+            </div>
+            <div class="color-green-1 a-bit-bolded mt-lg-4 mt-3 mb-3 pl-3 pl-lg-0">Dashboard</div>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col mb-4">
+                    <div class="card bg-white"  style="height: 240px; overflow-y: scroll; overflow-x: hidden;" id="my-scroll">
+                        <div class="card-header bg-white">
+                            <span class="display-name color-green-3 a-bit-bolded">My Ongoing Courses</span>
+                            <a class="color-green-2 small-text-1 a-bit-bolded float-right mt-2 mt-lg-1" href="#">view more <img src="./images/angle-bracket-left.svg" alt="View Profile"></a>
+                        </div>
+                        <div class="list-group list-group-flush p-2">
+                            <div class="list-group-item border-0">
+                                <div class="row justify-content-between align-items-center course-catalog-side-border-green" style="background-color: #F5FFF7;">
+                                    <div class="col-8">
+                                        <span class="small-text-2 color-green-3 a-bit-bolded d-block mb-n1">Access 2007 Expert - Using Scripts in Access</span>
+                                        <span class="small-text-1 grayed-text mt-n3">Activities 0 of 1 100% - Completed</span>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="course-catalog-0" src="./images/lms-course-1.svg" alt="Avatar">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item border-0">
+                                <div class="row justify-content-between align-items-center course-catalog-side-border-orange" style="background-color: #FFFBF5;">
+                                    <div class="col-8">
+                                        <span class="small-text-2 a-bit-bolded d-block mb-n1">Access 2007 Expert - Using Scripts in Access</span>
+                                        <span class="small-text-1 grayed-text mt-n3">Activities 0 of 1 45%% - in Progress</span>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="course-catalog ml-n3" src="./images/lms-course-2.svg" alt="Avatar">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item">
+                                <div class="row justify-content-between align-items-center course-catalog-side-border-orange" style="background-color: #FFFBF5;">
+                                    <div class="col-8">
+                                        <span class="small-text-2 a-bit-bolded d-block mb-n1">Access 2007 Expert - Using Scripts in Access</span>
+                                        <span class="small-text-1 grayed-text mt-n3">Activities 0 of 1 45%% - in Progress</span>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="course-catalog ml-n3" src="./images/lms-course-2.svg" alt="Avatar">
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-white" style="height: 240px;">
+                        <div class="card-header bg-white">
+                            <span class="display-name color-green-3 a-bit-bolded">My Records</span>
+                            <a class="color-green-2 small-text-1 a-bit-bolded float-right mt-2 mt-lg-1" href="#">view more <img src="./images/angle-bracket-left.svg" alt="View Profile"></a>
+                        </div>
+                        <table class="table table-responsive table-borderless table-condensed">
+                            <thead>
+                                <tr class="border-0">
+                                    <td scope="col" class="grayed-text small-text-2">Course Name</td>
+                                    <td scope="col" class="grayed-text small-text-2">Certificate</td>
+                                    <td scope="col" class="grayed-text small-text-2">Score/Grade</td>
+                                    <td scope="col" class="grayed-text small-text-2">Dates</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-0" style="background-color: #F5FFF7;">
+                                    <td class="small-text-3 grayed-text">Access 2007 Advanced - Pivoting Data</td>
+                                    <td class="small-text-3 grayed-text">
+                                        <img class="mr-1" src="./images/lms-certificate-0.svg" alt="Certificate Icon">Certfiacte Not Obtained
+                                    </td>
+                                    <td class="small-text-3 grayed-text">100.00%</td>
+                                    <td class="small-text-3 grayed-text">Aug 30, 2020</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>                
+            </div>
+            <div class="grayed-text a-bit-bolded mt-lg-4 mt-3 mb-3 pl-3 pl-lg-0">My Activities</div>
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col col-sm-12 mb-sm-5">
+                    <div style="width: 100%;">
+                        <div class="card bg-white card-for-calender">
+                            <div class="card-header bg-white">
+                                <span class="display-name color-green-3 a-bit-bolded">Calendar</span>
+                            </div>
+                            <div class="month d-flex justify-content-between align-items-baseline my-3 text-center px-3">
+                                <i class="fas fa-angle-left prev grayed-text"></i>
+                                <div class="date mx-5">
+                                    <p class="small-text-2"></p>
+                                </div>
+                                <i class="fas fa-angle-right next grayed-text"></i>
+                            </div>
+                            <div class="weekdays d-flex w-100">
+                                <div class="small-text-1 font-weight-bold">Su</div>
+                                <div class="small-text-1 font-weight-bold">Mo</div>
+                                <div class="small-text-1 font-weight-bold">Tu</div>
+                                <div class="small-text-1 font-weight-bold">We</div>
+                                <div class="small-text-1 font-weight-bold">Th</div>
+                                <div class="small-text-1 font-weight-bold">Fr</div>
+                                <div class="small-text-1 font-weight-bold">Sa</div>                          
+                            </div>
+                            <div class="days d-flex flex-wrap">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            <div class="col">
+                <div class="card bg-white card-for-calender mt-5 mt-lg-0">
+                    <div class="card-header bg-white">
+                        <span class="display-name color-green-3 a-bit-bolded">Events</span>
+                        <a class="color-green-2 small-text-1 a-bit-bolded float-right mt-2 mt-lg-1" href="#">View all</a>
+                    </div>
+                    <div class="pt-2">
+                        <div class="first-event d-flex px-3 justify-content-between align-items-baseline">
+                            <div>
+                                <img class="mt-1" src="./images/lms-bell.svg" alt="Event" style="width: 23px;">
+                            </div>
+                            <div >
+                                <p class="grayed-text small-text-3 mb-n2">Study Session</p>
+                                <span class="small-text-4 font-weight-bold">
+                                    let's meet at school library today, are you free?
+                                </span>
+                            </div>
+                            <div>
+                                <span class="grayed-text small-text-3">Today</span>
+                            </div>
+                        </div>
+                        <div class="vl mt-n2"></div>
+                        <div class="first-event d-flex px-3 justify-content-between align-items-baseline">
+                            <div>
+                                <img class="mt-1" src="./images/lms-bell.svg" alt="Event" style="width: 23px;">
+                            </div>
+                            <div >
+                                <p class="grayed-text small-text-3 mb-n2">Study Session</p>
+                                <span class="small-text-4 font-weight-bold">
+                                    A new issue has been reported, would you be able to help me?
+                                </span>
+                            </div>
+                            <div>
+                                <span class="grayed-text small-text-3">Today</span>
+                            </div>
+                        </div>
+                        <div class="vl mt-n2"></div>
+                        <div class="first-event d-flex px-3 justify-content-between align-items-baseline">
+                            <div>
+                                <img class="mt-1" src="./images/lms-bell.svg" alt="Event" style="width: 23px;">
+                            </div>
+                            <div>
+                                <p class="grayed-text small-text-3 mb-n2">Study Session</p>
+                                <span class="small-text-4 font-weight-bold">
+                                    Hurray! you've got a new rating
+                                </span>
+                            </div>
+                            <div>
+                                <span class="grayed-text small-text-3">Today</span>
+                            </div>
+                        </div>                                                                     
+                    </div>                 
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-white card-for-calender mt-5 mt-lg-0">
+                    <div class="card-header bg-white">
+                        <span class="display-name color-green-3 a-bit-bolded">Badge</span>
+                    </div>
+                    <div class="list-group list-group-flush p-2">
+                        <div class="list-group-item border-0">
+                            <div class="row justify-content-between align-items-center course-catalog-side-border-green py-2 pl-3 pr-1" style="background-color: #F5FFF7;">
+                                <div class="col-8">
+                                    <span class="small-text-2 color-green-3 a-bit-bolded d-block mb-n1">Badge Completed</span>
+                                    <span class="small-text-1 grayed-text mt-n3">[Course title]</span>
+                                </div>
+                                <div class="col-3">
+                                    <img class="w-100" src="./images/lms-badge.svg" alt="Badge Certificate">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
